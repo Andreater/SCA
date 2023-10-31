@@ -5,4 +5,4 @@ Supply Chain Analytics (SCA) is a forecast project where we used real world data
 We used a core pack of 12 forecasting model based on AI/ML. Each day 2 years of data are used for retraining, and the last seven days are used for hold out cross-validation. Then we select a best-fitting model based on RMSE and forecast error and refit data to obtain forecasts in a 10 days horizon. Seasonality is computed by decomposing the time series using a Fourier transform, then it is automatically fitted as predictor. Currently, the project does not support other exogenous features.
 
 ## Disclaimer
-To avoid data leaks I'm not sharing any code or config file with sensible informations. This means that I'm not uploading data on db structure and variables, and all the data in the dashboard were pseudo-randomized or anonymized.
+To avoid data leaks I'm not sharing any code or config file with sensible informations. This means that I'm not uploading data on db structure and variables, and all the data in the dashboard were pseudo-randomized or anonymized. This is the public repo for showcase purposes.
